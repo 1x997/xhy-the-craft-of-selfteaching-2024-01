@@ -1,2 +1,7 @@
 test push line 1
 test push 2
+代理设置，不应该照抄百度搜索的unset设置，科学上网查询，具体步骤需要：
+1. git config --global http.proxy socks5 127.0.0.1:7890
+2. git config --global https.proxy socks5 127.0.0.1:7890
+3. git config --global http.proxy 127.0.0.1:7890
+4. git config --global https.proxy 127.0.0.1:7890（参考文章：https://blog.csdn.net/zpf1813763637/article/details/128340109）
